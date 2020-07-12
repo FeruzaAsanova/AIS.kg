@@ -1,0 +1,28 @@
+.wrapper-text {
+    margin: 20px 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+
+}
+
+.wrapper-text h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 67px;
+    text-transform: uppercase;
+    text-align: left;
+    color: #ED2840;
+}
+
+.wrapper-text p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 190%;
+    text-align: left;
+    margin-top: 40px;
+}

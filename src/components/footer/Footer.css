@@ -1,0 +1,64 @@
+footer .wrapper {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 200px;
+    background-color: #020712;
+    justify-content: space-between;
+
+}
+
+footer div a {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    text-align: left;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 35px;
+    letter-spacing: 0.02em;
+}
+
+footer div h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    align-items: center;
+    text-transform: uppercase;
+    padding-right: 50px;
+    border-bottom: #ED2840 2px solid;
+    color: #FFFFFF;
+    text-align: left;
+
+}
+
+footer div p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    text-align: left;
+
+}
+
+footer .social-media a{
+    color: #ED2840;
+    align-items: center;
+    margin: 10px 15px;
+    width: 25px;
+    height: 25px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+
+}
+footer .social-media{
+    display: flex;
+    flex-direction: row;
+}
