@@ -56,9 +56,12 @@ footer .social-media a{
     height: 25px;
     background-color: #FFFFFF;
     border-radius: 50%;
+    justify-content: center;
+    justify-items: center;
 
 }
 footer .social-media{
     display: flex;
     flex-direction: row;
+
 }

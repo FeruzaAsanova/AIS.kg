@@ -1,25 +1,38 @@
-header .wrapper{
-    display: flex;
-    flex-direction: column;
-    padding: 20px 200px;
-}
-header .nav-bar{
-    display: flex;
-    flex-direction: column;
-}
-header .localisation{
+header{
+    width: 100%;
 
-}
-
-header .navigation a{
-text-decoration: none;
-}
-.flex-column{
-    display: flex;
-    flex-direction: column;
-}
-
-.flex-row{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+
+
+}
+header .logo{
+    display: flex;
+    margin-left: 200px;
+    align-content: center;
+}
+header .navBar{
+    margin-right: 200px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: flex-end;
+
+}
+header .localisation{
+    display: flex;
+    align-content: space-between;
+    justify-content: flex-end;
+}
+header .navigation{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+header .navigation a{
+    margin-right: 40px;
+    color: #FFFFFF;
+    text-decoration: none;
 }

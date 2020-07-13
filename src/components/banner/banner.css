@@ -1,0 +1,11 @@
+.wrapper-banner{
+    /*margin: 0 200px;*/
+    width: 100%;
+    /*background-size: 100%;*/
+    background-image: url("./Banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: 800px;
+
+}

@@ -9,6 +9,8 @@
     line-height: 44px;
     text-align: left;
     color: #020712;
+    margin-bottom: 0;
+
 
 }
 .wrapper-sport .sport-type {
@@ -16,14 +18,15 @@
     flex-direction: column;
 }
 
-.wrapper-sport .sport-type h1 {
+.wrapper-sport .sport-type h2 {
     font-family: Montserrat;
     font-style: normal;
     font-weight: 900;
-    font-size: 56px;
-    line-height: 68px;
+    font-size: 50px;
+    line-height: 60px;
     text-align: left;
     color: #ED2840;
+    /*margin: 121px 200px 60px 200px;*/
 }
 
 .wrapper-sport .sport-type div {
@@ -36,7 +39,7 @@
     display: flex;
     flex-direction: column;
 }
-.wrapper-sport .sport-type .sport-name h2{
+.wrapper-sport .sport-type .sport-name h3{
     font-family: Montserrat;
     font-style: normal;
     font-weight: 800;

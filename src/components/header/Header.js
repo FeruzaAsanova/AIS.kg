@@ -1,17 +1,18 @@
 import React from "react";
-
+import "./Header.css";
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import {faSearch} from "@fortawesome/free-solid-svg-icons";
 const Header =()=>{
     return(
         <header>
-             <div className="wrapper">
                 <div className="logo">logo</div>
-                <div className="nav-bar">
+                <div className="navBar">
                     <div className="localisation">
-                      <select>
+                        <select>
                             <option value="">ru</option>
-                             <option value="">kg</option>
-                      </select>
-                         <a>ВОЙТИ</a>
+                            <option value="">kg</option>
+                        </select>
+                        <a>ВОЙТИ</a>
                     </div>
                     <div className="navigation">
                         <a href="">Федерации</a>
@@ -20,10 +21,10 @@ const Header =()=>{
                         <a href="">Новости</a>
                         <a href="">О нас</a>
                         <a href="">Контакты</a>
-                        <i>searching</i>
+                        <FontAwesomeIcon icon={faSearch}/>
                     </div>
                 </div>
-            </div>
+
         </header>
     )
 }
