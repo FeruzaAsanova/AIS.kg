@@ -25,7 +25,7 @@ const Footer = () => {
                 </div>
                 <div>
                     <h1>Контакты</h1>
-                    <div>
+                    <div className="self-info">
                         <p><FontAwesomeIcon icon={faEnvelope}/> AIS.kg@gmail.com</p>
                         <p><FontAwesomeIcon icon={faMapMarkerAlt}/>Г. Бишкек ул. Токтогула 100/1</p>
                         <p><FontAwesomeIcon icon={faPhoneVolume}/>0707256789</p>

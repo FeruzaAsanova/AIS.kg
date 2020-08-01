@@ -1,0 +1,88 @@
+.wrapper-federation .federation-name {
+    width: 100%;
+    background-image: url("./../aboutUs/AboutUs.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: 800px;
+}
+
+.wrapper-federation .federation-name-text {
+    padding-top: 48px;
+    padding-left: 200px;
+}
+
+.wrapper-federation .text {
+    display: flex;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 51px;
+    color: #ED2840;
+    background-color: #FFFFFF;
+    width: 83%;
+    height: 100px;
+    padding-top: 30px;
+    padding-left: 20px;
+    align-content: center;
+    text-align: center;
+
+}
+
+.wrapper-federation .sport-picture {
+
+
+}
+
+
+.wrapper-federation .about-sport h1 {
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 51px;
+    color: #ED2840;
+    padding: 90px 200px 30px 200px;
+    text-align: justify;
+}
+
+.wrapper-federation .about-sport p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 170%;
+    color: #000000;
+    padding: 10px 200px;
+    text-align: justify;
+}
+
+.wrapper-federation .sport-federation h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 51px;
+    color: #ED2840;
+    padding: 90px 200px 30px 200px;
+
+
+}
+
+.wrapper-federation .sport-federation p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    text-transform: none;
+    text-decoration: none;
+    padding: 10px 200px;
+    font-size: 1em;
+    text-align: justify;
+}
+
+

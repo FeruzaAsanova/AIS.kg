@@ -5,7 +5,15 @@ import banner from "./Banner.png"
 const Banner = () => {
     return (
         <div className="wrapper-banner">
-            {/*<img src={banner} alt="" />*/}
+
+            <div className='wrapper-banner-text'>
+                <p>
+                    Мы едины!<br/>
+                    Мы за спорт!
+                </p>
+                <div className="banner-button ">Перейти к соревнованиям</div>
+            </div>
+
         </div>
     )
 }

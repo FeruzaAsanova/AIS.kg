@@ -1,11 +1,41 @@
 .wrapper-banner{
-    /*margin: 0 200px;*/
+
     width: 100%;
-    /*background-size: 100%;*/
+
     background-image: url("./Banner.png");
     background-position: center;
     background-repeat: no-repeat;
     object-fit: cover;
     height: 800px;
+}
+.wrapper-banner .wrapper-banner-text{
+    padding-top:300px ;
+    padding-left: 200px;
+}
+.wrapper-banner p{
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 85px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+.wrapper-banner .banner-button{
+
+    display: flex;
+    padding: 5px 10px;
+    width: 230px;
+    height: 35px;
+    color: #FFFFFF;
+    background-color: #ED2840;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 600;
+    align-items: center;
+    text-align: center;
 
 }

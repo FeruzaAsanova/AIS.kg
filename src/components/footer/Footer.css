@@ -33,6 +33,7 @@ footer div h1 {
     border-bottom: #ED2840 2px solid;
     color: #FFFFFF;
     text-align: left;
+    margin-bottom: 20px;
 
 }
 
@@ -45,13 +46,14 @@ footer div p {
     letter-spacing: 0.02em;
     color: #FFFFFF;
     text-align: left;
+    line-height: 30px;
 
 }
 
 footer .social-media a{
     color: #ED2840;
     align-items: center;
-    margin: 10px 15px;
+    margin: 5px 10px;
     width: 25px;
     height: 25px;
     background-color: #FFFFFF;

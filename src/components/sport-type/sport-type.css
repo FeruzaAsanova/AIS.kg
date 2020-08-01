@@ -9,7 +9,7 @@
     line-height: 44px;
     text-align: left;
     color: #020712;
-    margin-bottom: 0;
+    margin-bottom: 20px;
 
 
 }
@@ -26,7 +26,8 @@
     line-height: 60px;
     text-align: left;
     color: #ED2840;
-    /*margin: 121px 200px 60px 200px;*/
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 .wrapper-sport .sport-type div {
@@ -46,7 +47,11 @@
     font-size: 18px;
     line-height: 22px;
     color: #020712;
-}
+}.wrapper-sport .sport-name img:hover{
+    border-radius: 10%;
+    /*box-shadow: 3px 3px 3 #ED2840;  */
+ /*transform: scale(1,05);*/
+ }
 .wrapper-sport .sport-type .sport-name p {
     font-family: Montserrat;
     font-style: normal;
