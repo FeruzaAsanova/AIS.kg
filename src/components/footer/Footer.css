@@ -7,6 +7,11 @@ footer .wrapper {
 
 }
 
+footer .logo{
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
 footer div a {
     display: flex;
     flex-direction: column;
@@ -29,11 +34,12 @@ footer div h1 {
     line-height: 24px;
     align-items: center;
     text-transform: uppercase;
-    padding-right: 50px;
+
     border-bottom: #ED2840 2px solid;
     color: #FFFFFF;
     text-align: left;
     margin-bottom: 20px;
+    margin-top: 30px;
 
 }
 

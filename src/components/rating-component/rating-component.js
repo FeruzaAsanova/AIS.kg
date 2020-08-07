@@ -9,8 +9,11 @@ const RatingComponent = () => {
                 <div className="select-sport">
                     <p>Выберите вид спорта</p>
                     <select>
-                        <option value="">ru</option>
-                        <option value="">kg</option>
+                        <option value="">Выберите вид спорта </option>
+                        <option value="national">Национальные виды спорта</option>
+                        <option value="national">Олимпийские виды спорта</option>
+                        <option value="national">Неолимпийские виды спорта</option>
+                        <option value="national">Виды спортов Пара и Сурдо (ЛОВЗ)</option>
                     </select>
                 </div>
                 <div className="select-sport">

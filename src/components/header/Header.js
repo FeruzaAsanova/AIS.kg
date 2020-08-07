@@ -3,7 +3,7 @@ import "./Header.css";
 import {NavLink} from "react-router-dom"
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faSearch} from "@fortawesome/free-solid-svg-icons";
-
+import Logo from "./../../logo.svg"
 const Header = () => {
     console.log(window.location.pathname)
     return (
@@ -11,7 +11,10 @@ const Header = () => {
             background: window.location.pathname !== "/" && "#ffffff",
         }}>
             {/*<header>*/}
-            <div className="logo">logo</div>
+            <div className="logo">
+                <img src={Logo} alt=""/>
+
+            </div>
             <div className="navBar">
                 <div className="localisation">
                     <select>

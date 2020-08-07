@@ -6,6 +6,7 @@ import ContactsPage from "./client-page/Contacts-page";
 import AboutUsPage from "./client-page/AboutUs-page";
 import FederationPage from "./client-page/Federation-page";
 import RatingPage from "./client-page/Rating-page";
+import NewsPage from "./client-page/News-page";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
                     <Route path='/contacts' exact component={ContactsPage}/>
                     <Route path='/federation' exact component={FederationPage}/>
                     <Route path='/rating' exact component={RatingPage}/>
+                    <Route path='/news' exact component={NewsPage}/>
                 </Switch>
 
             </BrowserRouter>

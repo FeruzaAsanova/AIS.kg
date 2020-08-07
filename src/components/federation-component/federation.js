@@ -1,7 +1,35 @@
 import React from "react";
 import "./federation.css"
 import Basketbol from "./../aboutUs/AboutUs.png"
+
+import Bayer from "../../components/aboutUs/AboutUs.png";
+import SlideShow from "../slide-show/slideShow";
+
 const FederationComponent = () => {
+    let info = [
+        {
+            name: "«Байер» снизит стоимость Кая Хаверца.",
+            img: Bayer
+        }, {
+            name: "«Байер» снизит стоимость Кая Хаверца.",
+            img: Bayer
+        }, {
+            name: "«Байер» снизит стоимость Кая Хаверца.",
+            img: Bayer
+        }, {
+            name: "«Байер» снизит стоимость Кая Хаверца.",
+            img: Bayer
+        }, {
+            name: "«Байер» снизит стоимость Кая Хаверца.",
+            img: Bayer
+        },
+        {
+
+            name: "«Байер» снизит стоимость Кая Хаверца.",
+            img: Bayer
+        }
+
+    ]
     return (
         <div className="wrapper-federation">
             <div className="federation-name">
@@ -44,22 +72,31 @@ const FederationComponent = () => {
                     Место в рейтинге FIBA 3×3 — 35</p>
                 <p>
                     <b>Контакты:</b> г. Бишкек, улица Горького 144. тел. (факс): +996 312 542042<br/>
-                   <b> Генеральный секретарь:</b> <br/>
+                    <b> Генеральный секретарь:</b> <br/>
                     Генеральный секретарь: Пехов Евгений Анатольевич — (+996) 555 254878<br/>
-                   <b>Председатель судейской коллегии:</b>  Быков Дмитрий Васильевич — (+996) 550 277269</p>
+                    <b>Председатель судейской коллегии:</b> Быков Дмитрий Васильевич — (+996) 550 277269</p>
             </div>
-            <div>
-                <h1>Программа мероприятий </h1>
+
+
+            {/*<div>*/}
+            {/*    <h1>Программа мероприятий </h1>*/}
+            {/*</div>*/}
+            {/*<div>*/}
+            {/*    таблица*/}
+            {/*</div>*/}
+            <div className="wrapper-news">
+                {info.map((item, id) => (
+                    <div className="new">
+                        <img src={item.img} alt=""/>
+                        <div className="new-text">
+                            <p>Последние новости</p>
+                            <h4>{item.name}</h4>
+                            <a href="">Подробнее...</a>
+                        </div>
+                    </div>
+                ))}
             </div>
-            <div>
-                таблица
-            </div>
-            <div>
-                новости
-            </div>
-            <div>
-                галерея, слайд
-            </div>
+            <SlideShow />
         </div>
     )
 }

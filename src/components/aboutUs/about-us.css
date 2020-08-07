@@ -13,7 +13,7 @@
     font-style: normal;
     font-weight: 200;
     font-size: 20px;
-    padding: 33px 200px 20px 200px;
+    padding: 100px 200px 30px 200px;
     line-height: 1.5em;
     color: #000000;
 }
@@ -24,7 +24,8 @@
 .wrapper-about-us .text{
     display: flex;
     width: 83%;
-    height: 100px;
+    height: 140px;
+    padding-top: 60px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: 900;
@@ -34,7 +35,7 @@
     background-color: #FFFFFF;
     text-align: center;
     align-content: center;
-    padding-top: 30px;
+
     padding-left: 20px;
 
 }

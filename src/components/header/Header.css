@@ -6,12 +6,18 @@ header {
     position: absolute;
     background: none;
 
+
 }
 
 header .logo {
     display: flex;
     padding-left: 200px;
     align-content: center;
+
+
+}
+header .logo img{
+    margin: 10px 10px;
 }
 
 header .navBar {

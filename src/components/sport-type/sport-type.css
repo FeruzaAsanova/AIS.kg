@@ -39,6 +39,7 @@
 .wrapper-sport .sport-type .sport-name {
     display: flex;
     flex-direction: column;
+    margin-bottom: 20px;
 }
 .wrapper-sport .sport-type .sport-name h3{
     font-family: Montserrat;

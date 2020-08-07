@@ -3,15 +3,14 @@ import "./Footer.css";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faInstagram, faFacebookF} from "@fortawesome/free-brands-svg-icons";
 import {faEnvelope, faPhoneVolume, faMapMarkerAlt} from "@fortawesome/free-solid-svg-icons";
-
+import Logo from "./../../logo ais.svg";
 const Footer = () => {
     return (
         <footer>
 
             <div className="wrapper">
-                <div>
-
-                    <h1>Logo</h1>
+                <div className="logo">
+                    <img src={Logo} alt="logo"/>
                 </div>
                 <div>
                     <h1>О нас</h1>
